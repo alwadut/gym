@@ -1,0 +1,132 @@
+
+body{
+    background-image: url(/gym\ cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: black;
+    text-align: center;  
+    background: rgba(19, 22, 33, 0.91);
+    height: 50px;
+    
+   
+
+}
+nav a{
+    margin: 10px;
+    text-decoration: none;
+    color: #FFFDFD;
+    font-weight: 700;
+
+}
+.sign-in{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: azure;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.body-text{
+    margin-top: 150px;
+    margin-left: 80px;
+    
+}
+.fitness{
+    font-size: 6rem;
+    width: 328px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.507);
+    margin: 0;
+}
+.hub{
+    font-size: 6rem;
+    width: 248px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.507);
+    margin: 0;
+}
+.tag-line{
+    font-size: 2rem;
+    margin: 0;
+    color: aliceblue;
+    width: 248px;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+.join-club{
+    font-size: 30px;
+    font-weight: 700;
+    height: 40px;
+    width: 220px;
+    border-radius: 5px;
+    background: #FFFDFD;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    margin-top: 20px;
+    }
+
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 150px;
+        background-color: rgba(19, 22, 33, 0.91);
+    }
+
+    .footer-point{
+        display: grid;
+       grid-template-columns: repeat(4,1fr);
+       gap: 40px;
+       margin-top: 20px;
+       margin-right: 20px;
+        
+    }
+    .fitness-cub{
+        margin-left: 100px;
+        margin-bottom: 100px;
+    }
+    .foot-fit{
+        font-size: 50px;
+       margin: 0;
+       color: #FFFDFD;
+    }
+    .foot-fit2{
+        font-size: 50px;
+       margin: 0;
+       color: #FFFDFD;
+    }
+    .foot-fit-tag{
+        font-size: 20px;
+       margin: 0;
+       color: #FFFDFD;
+    }
+    .about{
+        margin-right: 50px;
+
+    }
+    .titel{
+        color: #FFFDFD;
+        font-size: 30px;
+        font-weight: 700;
+
+
+    }
+    .about a {
+        text-decoration: none;
+        font-size: 15px;
+        color: #FFFDFD;
+        font-weight: 300;
+
+    }
+    @media screen and (max-width:576px) {
+
+        
+    }
